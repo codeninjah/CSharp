@@ -20,5 +20,12 @@ namespace MultiplierTestLib
 
 
 		}
+
+		public void While()
+		{
+			MultiplierLib.Multiplier myMultiplier2 = new MultiplierLib.Multiplier();
+			var actual = myMultiplier2.While(20, 50);
+			Assert.AreEqual(600, actual);
+		}
 	}
 }
