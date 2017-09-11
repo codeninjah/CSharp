@@ -12,5 +12,17 @@ namespace MultiplierLib
 		{
 			return l1 * l2;
 		}
-    }
+
+
+		public long UsingFor(long left, long right)
+		{
+			long total = 0;
+			for (int i = 1; i <= left; i++)
+			{
+				total += right;
+			}
+			return total;
+		}
+	}
+
 }

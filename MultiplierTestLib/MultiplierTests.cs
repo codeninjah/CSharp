@@ -13,7 +13,7 @@ namespace MultiplierTestLib
 			MultiplierLib.Multiplier myMultiplier = new MultiplierLib.Multiplier();
 
 			// Act - utför det man vill testa
-			var actual = myMultiplier.Simple(20, 20);
+			var actual = myMultiplier.Simple(10, 20);
 
 			// Assert - kontrollerar att utfallet stämmer med verkligheten
 			Assert.AreEqual(400, actual);
