@@ -16,16 +16,17 @@ namespace MultiplierTestLib
 			var actual = myMultiplier.Simple(10, 20);
 
 			// Assert - kontrollerar att utfallet stämmer med verkligheten
-			Assert.AreEqual(400, actual);
+			Assert.AreEqual(200, actual);
 
 
 		}
 
+		[TestMethod]
 		public void While()
 		{
 			MultiplierLib.Multiplier myMultiplier2 = new MultiplierLib.Multiplier();
-			var actual = myMultiplier2.While(20, 50);
-			Assert.AreEqual(600, actual);
+			var actual2 = myMultiplier2.While(20, 50);
+			Assert.AreEqual(600, actual2);
 		}
 	}
 }
