@@ -26,7 +26,15 @@ namespace MultiplierTestLib
 		{
 			MultiplierLib.Multiplier myMultiplier2 = new MultiplierLib.Multiplier();
 			var actual2 = myMultiplier2.While(20, 50);
-			Assert.AreEqual(600, actual2);
+			Assert.AreEqual(1000, actual2);
+		}
+
+		[TestMethod]
+		public void For()
+		{
+			MultiplierLib.Multiplier myMultiplier3 = new MultiplierLib.Multiplier();
+			var actual3 = myMultiplier3.UsingFor(20, 60);
+			Assert.AreEqual(1200, actual3);
 		}
 	}
 }
