@@ -51,6 +51,7 @@
     <Compile Include="MultiplierTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileConversionTest.cs" />
+    <Compile Include="PurchaseCalculationTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

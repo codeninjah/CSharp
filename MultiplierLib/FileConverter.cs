@@ -34,7 +34,8 @@ namespace MultiplierLib
 
 		public void TransformFile(string inputName, string outputName)
 		{
-			StringWriter sw = new StringWriter();
+			StreamWriter sw = new StreamWriter(File.Create(outputName),
+			Encoding.GetEncoding("iso-8859-1"));
 			string[] lines = File.ReadAllLines(inputName);
 			foreach (var line in lines)
 			{
