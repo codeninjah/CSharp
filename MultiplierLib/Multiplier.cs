@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MultiplierLib
 {
-    public class Class1
+    public class Multiplier
     {
+		public long Simple(long l1, long l2)
+		{
+			return l1 * l2;
+		}
     }
 }
