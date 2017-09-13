@@ -27,11 +27,11 @@ namespace MultiplierTestLib
 		}
 
 		[TestMethod]
+		[ExpectedException(typeof(InvalidOperationException))]
 		public void TestMethod3()
 		{
 			StoryTeller Test3 = new StoryTeller();
 			var test3 = Test3.TellStory("Robin", 4, true);
-			Assert.AreEqual($"Unga barn ska inte bli skrämda", test3);
 		}
 
 

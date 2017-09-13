@@ -12,6 +12,8 @@ namespace ConsoleApp2
 		{
 
 			var tal = "";
+			if (ageOfChild < 5 && willBeScary)
+				throw new InvalidOperationException($"Unga barn ska inte bli skrämda");
 			if (ageOfChild < 7)
 				tal = $"Lyssna nu {nameOfChild}. Det var en gång en prinsessa.";
 			if (ageOfChild >= 7)
@@ -20,9 +22,6 @@ namespace ConsoleApp2
 				tal += $" som egentligen var en varulv";
 			if (!willBeScary)
 				tal += $" som tyckte om att dansa";
-			if (ageOfChild < 5 && willBeScary)
-				throw new InvalidOperationException ($"Unga barn ska inte bli skrämda");
-
 
 			return tal;
 
