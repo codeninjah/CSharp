@@ -11,8 +11,8 @@ namespace GreeterTests
 		public void WhenUnder15()
 		{
 			var sut = new Greeter();
-			var message = sut.Welcome(15);
-			Assert.AreEqual("Welcome To EC Utbildning", message);
+			var message = sut.Welcome(20);
+			Assert.AreEqual("Maybe YH?", message);
 		}
 	}
 }

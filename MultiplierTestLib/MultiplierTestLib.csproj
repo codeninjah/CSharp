@@ -52,11 +52,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileConversionTest.cs" />
     <Compile Include="PurchaseCalculationTest.cs" />
+    <Compile Include="StoryTellerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp2\ConsoleApp2.csproj">
+      <Project>{86bcbb7e-cd5e-455d-96c9-3643f60b4508}</Project>
+      <Name>ConsoleApp2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MultiplierLib\MultiplierLib.csproj">
       <Project>{cf547e80-06b7-4421-9fb5-03b3ee417ef8}</Project>
       <Name>MultiplierLib</Name>
