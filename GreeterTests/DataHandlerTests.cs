@@ -17,6 +17,7 @@ namespace MultiplierTestsLib
 			int days = sut.DaysBetweenDates(firstDate, secondDate);
 			Assert.AreEqual(808, days);
 		}
+		//LÖST
 		[TestMethod]
 		public void Add1000DaysTo20170101()
 		{
