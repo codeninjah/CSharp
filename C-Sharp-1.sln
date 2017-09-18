@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeterTests", "GreeterTests\GreeterTests.csproj", "{74301A53-19A8-4F4C-9C9A-95CB84E38F7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarukorgTestsLib", "VarukorgTestsLib\VarukorgTestsLib.csproj", "{9B675D60-3CDA-4B79-BC61-29A5687138AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarukorgLib", "VarukorgLib\VarukorgLib.csproj", "{A336F82A-497B-4119-84A6-6820296A94C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017-09-", "2017-09-", "{D5D4872B-DA8B-4637-875A-E50825ED2FC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,14 @@ Global
 		{74301A53-19A8-4F4C-9C9A-95CB84E38F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74301A53-19A8-4F4C-9C9A-95CB84E38F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74301A53-19A8-4F4C-9C9A-95CB84E38F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B675D60-3CDA-4B79-BC61-29A5687138AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B675D60-3CDA-4B79-BC61-29A5687138AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B675D60-3CDA-4B79-BC61-29A5687138AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B675D60-3CDA-4B79-BC61-29A5687138AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A336F82A-497B-4119-84A6-6820296A94C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A336F82A-497B-4119-84A6-6820296A94C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A336F82A-497B-4119-84A6-6820296A94C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A336F82A-497B-4119-84A6-6820296A94C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
