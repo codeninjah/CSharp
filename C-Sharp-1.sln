@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017-09-18", "2017-09-18", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryTellerWindowsApp", "StoryTellerWindowsApp\StoryTellerWindowsApp.csproj", "{CDFF6B15-5FE8-4726-9191-D3787F1A302A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirkusLibTests", "CirkusLibTests\CirkusLibTests.csproj", "{90550CA8-899B-448F-899D-5ABFCBA0DDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirkusLib", "CirkusLib\CirkusLib.csproj", "{A26F89FF-6D94-4818-9B14-6B938D804A5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,11 +63,21 @@ Global
 		{CDFF6B15-5FE8-4726-9191-D3787F1A302A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDFF6B15-5FE8-4726-9191-D3787F1A302A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDFF6B15-5FE8-4726-9191-D3787F1A302A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90550CA8-899B-448F-899D-5ABFCBA0DDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90550CA8-899B-448F-899D-5ABFCBA0DDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90550CA8-899B-448F-899D-5ABFCBA0DDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90550CA8-899B-448F-899D-5ABFCBA0DDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26F89FF-6D94-4818-9B14-6B938D804A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26F89FF-6D94-4818-9B14-6B938D804A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26F89FF-6D94-4818-9B14-6B938D804A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26F89FF-6D94-4818-9B14-6B938D804A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CDFF6B15-5FE8-4726-9191-D3787F1A302A} = {D5D4872B-DA8B-4637-875A-E50825ED2FC0}
+		{90550CA8-899B-448F-899D-5ABFCBA0DDF1} = {D5D4872B-DA8B-4637-875A-E50825ED2FC0}
+		{A26F89FF-6D94-4818-9B14-6B938D804A5D} = {D5D4872B-DA8B-4637-875A-E50825ED2FC0}
 	EndGlobalSection
 EndGlobal
