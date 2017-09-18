@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using VarukorgLib;
 
 namespace VarukorgTestsLib
 {
@@ -15,7 +16,7 @@ namespace VarukorgTestsLib
 			Produkt testSkärm = new Produkt("Skärm test");
 			testSkärm.Pris = 1500;
 			Varukorg sut = new Varukorg();
-			sut.testKund;
+			sut.Kund = testKund;
 			sut.LäggTillProdukt(testLaptop);
 			sut.LäggTillProdukt(testSkärm);
 
