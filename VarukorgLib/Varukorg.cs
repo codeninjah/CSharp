@@ -29,7 +29,7 @@ namespace VarukorgLib
 		{
 			this.Orderbekräftelse = new Orderbekräftelse
 			{
-				Meddelande = $"{Kund.name} har beställt varor för {this.Total} kr"
+				Meddelande = $"{Kund.Name} har beställt varor för {this.Total} kr"
 			};
 		}
 	}

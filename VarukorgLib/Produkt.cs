@@ -8,11 +8,11 @@ namespace VarukorgLib
 {
 	public class Produkt
 	{
-		private string v;
+		private string name;
 
-		public Produkt(string v)
+		public Produkt(string name)
 		{
-			this.v = v;
+			this.name = name;
 		}
 
 		public int Pris { get; set; }

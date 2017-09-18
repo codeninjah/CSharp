@@ -8,11 +8,11 @@ namespace VarukorgLib
 {
 	public class Kund
 	{
-		public string name;
+		public string Name;
 
 		public Kund(string name)
 		{
-			this.name = name;
+			this.Name = name;
 		}
 	}
 }
