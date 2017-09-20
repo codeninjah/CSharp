@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,7 +49,7 @@ namespace CirkusLib
 			{
 				var artname = artist.Key.name;
 
-				if (artist.Value > 1)
+				if (artist.Value != 1)
 					gånger = "gånger";
 				else
 					gånger = "gång";
@@ -56,9 +57,8 @@ namespace CirkusLib
 				sufix += $"{artname} har uppträtt {artist.Value} {gånger}.";
 			}
 
-
-
 			return $"Cirkusen Victoria har {antalAnställda} artister. " + sufix; 
+			
 		}
 	}
 }
