@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExamLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,12 @@ namespace ExamenLib
 
 		public void Grade(Student student, string betyg)
 		{
+			if (!Students.ContainsKey(student))
+			{
+				throw new UnassignedStudentException();
+			}
 			Students[student] = betyg;
+
 		}
 
 		public Dictionary<string, int> GenerateStatistics()

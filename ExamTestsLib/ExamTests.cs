@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ExamenLib;
 using System.Collections.Generic;
+using ExamLib;
 
 namespace ExamTestsLib
 {
