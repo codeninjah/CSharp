@@ -31,6 +31,7 @@ namespace ExamenLib
 			{
 				throw new UnassignedStudentException();
 			}
+
 			Students[student] = betyg;
 
 		}
@@ -50,5 +51,7 @@ namespace ExamenLib
 
 			return Statistik;
 		}
+
+		
 	}
 }
